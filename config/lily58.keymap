@@ -15,6 +15,7 @@
         compatible = "zmk,behavior-hold-tap";
         #binding-cells = <2>;
         flavor = "balanced";
+        bindings = <&kp>, <&kp>;
       };
     };
 
