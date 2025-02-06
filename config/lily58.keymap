@@ -14,7 +14,9 @@
       blt: left_thumb_tap {
         compatible = "zmk,behavior-hold-tap";
         #binding-cells = <2>;
-        flavor = "balanced";
+        tapping-term-ms = <200>;
+        hold-while-undecided = true; // enables space-for-dragging-with-mouse
+        flavor = "tap-preferred";
         bindings = <&kp>, <&kp>;
       };
     };
