@@ -14,7 +14,7 @@
       blt: left_thumb_tap {
         compatible = "zmk,behavior-hold-tap";
         flavor = "balanced";
-      }
+      };
     };
 
     keymap {
