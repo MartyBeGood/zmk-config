@@ -13,6 +13,10 @@
   tapping-term-ms = <130>;
 }
 
+&mt {
+  hold-while-undecided;
+}
+
 / {
     behaviors {
       blt: left_thumb_tap {
