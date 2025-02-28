@@ -11,11 +11,11 @@
 
 &lt {
   tapping-term-ms = <130>;
-}
+};
 
 &mt {
   hold-while-undecided;
-}
+};
 
 / {
     behaviors {
