@@ -13,6 +13,10 @@
   hold-while-undecided;
 };
 
+&lt {
+  quick-tap-ms = <200>;
+};
+
 / {
     behaviors {
       blt: left_thumb_tap {
