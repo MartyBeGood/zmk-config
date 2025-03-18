@@ -68,11 +68,11 @@
 // |       |     |     |      |      |      |        |  |       |  _   |   -   |   {   |  }   |   \   |       |
 //                     |      |      |      |        |  |       |      |       |       |
             bindings = <
-&trans    &trans   &trans &trans   &trans     &trans                       &trans      &trans    &trans    &trans   &trans    &trans
-&kp GRAVE &kp N1   &kp N2 &kp N3   &kp N4     &kp N5                       &kp PLUS    &kp EQUAL &kp LBKT  &kp RBKT &kp PIPE  &trans
-&kp GRAVE &kp EXCL &kp AT &kp HASH &kp DOLLAR &kp PRCNT                    &kp CARET   &kp AMPS  &kp LPAR  &kp RPAR &kp ASTRK &trans
-&kp F7    &kp F8   &kp F9 &kp F10  &kp F11    &kp F12   &trans   &trans    &kp UNDER   &kp MINUS &kp LBRC &kp RBRC  &kp BSLH  &trans
-                        &trans  &trans  &trans    &trans   &trans    &trans      &trans    &trans
+&trans    &trans   &trans &trans        &trans        &trans                       &trans      &trans    &trans    &trans   &trans    &trans
+&kp GRAVE &kp N1   &kp N2 &kp N3        &kp N4        &kp N5                       &kp PLUS    &kp EQUAL &kp LBKT  &kp RBKT &kp PIPE  &trans
+&kp GRAVE &kp EXCL &kp AT &kp HASH      &kp DOLLAR    &kp PRCNT                    &kp CARET   &kp AMPS  &kp LPAR  &kp RPAR &kp ASTRK &trans
+&kp LSHFT &trans   &trans &kp LC(LS(C)) &kp LC(LS(V)) &trans    &trans   &trans    &kp UNDER   &kp MINUS &kp LBRC &kp RBRC  &kp BSLH  &trans
+                          &trans        &trans        &trans    &trans   &trans    &trans      &trans    &trans
             >;
         };
 
