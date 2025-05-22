@@ -34,11 +34,11 @@
 
         default_layer {
 // ---------------------------------------------------------------------------------------------------------------------------
-// |   `       |  1  |  2  |  3   |  4   |  5   |                              |  6   |  7    |  8    |  9   |   0   |   -   |
-// | TAB/Numpd |  Q  |  W  |  E   |  R   |  T   |                              |  Y   |  U    |  I    |  O   |   P   |   =   |
-// | ESC/CTRL  |  A  |  S  |  D   |  F   |  G   |                              |  H   |  J    |  K    |  L   |   ;   |   '   |
-// |  SHIFT    |  Z  |  X  |  C   |  V   |  B   |    DEL      |  |    BSPC     |  N   |  M    |  ,    |  .   |   /   | SHIFT |
-//                    | ALT  | GUI  | ENT/LOWER | SPACE/RAISE |  | SPACE/RAISE | ENT/LOWER | BSPC  | GUI   |
+// |   `       |  1  |  2  |  3   |  4  |   5   |                            |   6   |   7    |  8  |  9   |   0   |   -   |
+// | Tab/Numpd |  Q  |  W  |  E   |  R  |   T   |                            |   Y   |   U    |  I  |  O   |   P   |   =   |
+// | Esc/Ctrl  |  A  |  S  |  D   |  F  |   G   |                            |   H   |   J    |  K  |  L   |   ;   |   '   |
+// |  Shift    |  Z  |  X  |  C   |  V  |   B   |  DEL      |  |  Backspace  |   N   |   M    |  ,  |  .   |   /   | Shift |
+//                        | Alt  | Gui  | ⏎ / ↘ | Space / ↗ |  |  Space / ↗  | ⏎ / ↘ | AltGr  |  ↗  |
             bindings = <
 &kp GRAVE     &kp N1 &kp N2 &kp N3   &kp N4   &kp N5                              &kp N6 &kp N7   &kp N8    &kp N9  &kp N0   &kp EQUAL
 &lt 3 TAB     &kp Q  &kp W  &kp E    &kp R    &kp T                               &kp Y  &kp U    &kp I     &kp O   &kp P    &kp MINUS
@@ -48,7 +48,7 @@
             >;
         };
 
-        lower_layer { // 
+        lower_layer { // ↘
 // ------------------------------------------------------------------------------------------------------------
 // | BTCLR | BT1 | BT2 |  BT3 |  BT4 |  BT5 |                   |      |       |       |      |       | VOL + |
 // |       |  F1 |  F2 |   ↑  |  F4  |  F5  |                   | HOME | PG_UP | PG_DN |  END |       | VOL - |
@@ -64,7 +64,7 @@
             >;
         };
 
-        raise_layer {
+        raise_layer { // ↗
 // ------------------------------------------------------------------------------------------------------------
 // |       |     |     |      |      |      |                   |      |       |       |      |       |       |
 // |   `   |  1  |  2  |  3   |  F9  |  F10 |                   |  +   |   =   |   [   |  ]   |   |   |       |
