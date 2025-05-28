@@ -38,13 +38,13 @@
 // | Tab/Numpd |  Q  |  W  |  E   |  R  |   T   |                            |   Y   |   U    |  I  |  O   |   P   |   =   |
 // | Esc/Ctrl  |  A  |  S  |  D   |  F  |   G   |                            |   H   |   J    |  K  |  L   |   ;   |   '   |
 // |  Shift    |  Z  |  X  |  C   |  V  |   B   |  DEL      |  |  Backspace  |   N   |   M    |  ,  |  .   |   /   | Shift |
-//                        | Alt  | Gui  | ⏎ / ↘ | Space / ↗ |  |  Space / ↗  | ⏎ / ↘ | AltGr  |  ↗  |
+//                        | Alt  | Gui  | ⏎ / ↘ | Space / ↗ |  |  Space / ↗  | ⏎ / ↘ | AltGr  | Gui  |
             bindings = <
 &kp GRAVE     &kp N1 &kp N2 &kp N3   &kp N4   &kp N5                              &kp N6 &kp N7   &kp N8    &kp N9  &kp N0   &kp EQUAL
 &lt 3 TAB     &kp Q  &kp W  &kp E    &kp R    &kp T                               &kp Y  &kp U    &kp I     &kp O   &kp P    &kp MINUS
 &mt LCTRL ESC &kp A  &kp S  &kp D    &kp F    &kp G                               &kp H  &kp J    &kp K     &kp L   &kp SEMI &kp SQT
 &kp LSHFT     &kp Z  &kp X  &kp C    &kp V    &kp B   &kp DEL        &kp BSPC     &kp N  &kp M    &kp COMMA &kp DOT &kp FSLH &kp RSHFT
-                        &kp LGUI &kp LALT &lt 1 ENTER &blt 2 SPACE   &lt 2 SPACE  &lt 1 ENTER  &kp RALT &mo 2
+                        &kp LGUI &kp LALT &lt 1 ENTER &blt 2 SPACE   &lt 2 SPACE  &lt 1 ENTER  &kp RALT &kp RGUI
             >;
         };
 
