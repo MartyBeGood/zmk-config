@@ -21,7 +21,7 @@
 include:
   - board: nice_nano_v2
     shield: lily58_left
-    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME=Allium58
+    cmake-args: -DEXTRA_CONF_FILE=../../config/lily58_extra.conf
   - board: nice_nano_v2
     shield: lily58_right
-    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME=Allium58
+    cmake-args: -DEXTRA_CONF_FILE=../../config/lily58_extra.conf
